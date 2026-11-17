@@ -1,5 +1,5 @@
 ---
-title: 'Hello, world'
+title: 'Issue 33'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Digital Marketing is our'
@@ -9,7 +9,6 @@ intro:
   buttonUrl: '/work'
   image: '/images/bg/toast.jpg'
   imageAlt: 'Buttered toasted white bread'
----
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary: 'This is the project site you build when you take the “Learn
@@ -18,4 +17,10 @@ primaryCTA:
     though. Take the course today!'
   buttonText: "It's free!"
   buttonUrl: 'https://learneleventy.dev'
+featuredWork:
+  title: 'Selected work'
+  summary: 'Some stuff that should give you an idea of what we’re all about.'
+studioFeed:
+  title: 'From inside the studio'
+---
 This is pretty _rad_, right?
