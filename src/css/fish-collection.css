@@ -1,0 +1,64 @@
+:root {
+    :root {
+      --background: #ffffff;
+      --foreground: #171717;
+
+}
+
+.ctas {
+    padding-top: 3em;
+}
+
+.fish-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish {    
+    &:hover {
+        background: (0 0 95%);
+        color: white;
+        outline: none;
+        scale: 130%;
+        filter: contrast(1)
+        drop-shadow(0px 2px 0px white)
+        drop-shadow(0px -2px 0px white)
+        drop-shadow(-2px 0px 0px white)
+        drop-shadow(2px 0px 0px white);
+        animation: wiebel 0.4s ease-in-out infinite alternate;        
+    }
+}
+
+@keyframes wiebel {        
+    0% {
+        transform: rotate(-5deg);
+    }
+    100% {            
+        transform: rotate(5deg);
+    }
+}
+
+.code {      
+    font-size: 0.9em;
+    background: color-mix(in srgb, currentColor 8%, transparent);
+    padding: 0.1em 0.4em;
+    border-radius: 6px;
+}
+
+ {
+    gap: 1em;
+}
+
+.button {
+    --container: #14293A;
+    --container-text: #ffffff;
+    --container-hover: #00508F; 
+    
+    background: var(--container);
+    padding: 0.5em;
+    border-radius: 5em;
+    
+    &:hover {
+        background: var(--container-hover);
+    }
+}

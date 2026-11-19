@@ -1,0 +1,34 @@
+<head>
+<link rel="stylesheet" href="/css/fish-collection.css">
+</head>
+
+<div class="page">
+  <main class="main">
+    <img class="logo" src="images/fish/fish-logo.png" alt="geluksvis logo" width="100" height="40">
+
+    <section class="intro">
+      <h1>De <code class="code">geluksvis</code> collectie</h1>
+      <!-- target="_blank" opent de link in een nieuw tabblad -->
+      <p><a href="#" target="_blank" rel="noopener noreferrer">terug naar boven</a></p>
+    </section>
+
+    <section class="fish-section">
+      {% for nummer in range(1, 17) %}
+        <section>
+          <img class="fish" src="images/fish/fish-{{ nummer }}.png" alt="" width="150" height="150" loading="lazy">
+        </section>
+      {% endfor %}
+    </section>
+
+    <section class="ctas">
+      <a class="button" href=".nl" target="_blank" rel="noopener noreferrer">
+        <img class="logo" src="images/svg/sleutel.svg" alt="sleutel" width="100" height="20">
+      </a>
+
+      <a class="button" href=".nl" target="_blank" rel="noopener noreferrer">
+        <img class="logo" src="images/svg/fish.svg" alt="" width="100" height="20">
+      </a>
+    </section>
+  </main>
+</div>
+
